@@ -50,7 +50,7 @@ Example Form Code:
 
 
 
-The example code above passes the created ticket id to the thank you page via:
+The example code above passes the created ticket id to the thank you page which you can access with a craft.request variable:
 {{ craft.request.getQuery('ticket') }}
 
 See https://github.com/pixelandtonic/ContactForm
